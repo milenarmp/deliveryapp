@@ -66,3 +66,23 @@ const App = () => {
   )
 }
 export default App
+
+import React from 'react'
+import Inputs from './PresentationalComponent/inputs.js'
+
+const App = () => {
+  return (
+    <Inputs />
+  )
+}
+export default App
+
+import React from 'react'
+import ScrollViewExample from './scroll_view.js'
+
+const App = () => {
+  return (
+    <ScrollViewExample />
+  )
+}
+export default App

@@ -1,9 +1,9 @@
 import React from 'react'
-import Inputs from './PresentationalComponent/inputs.js'
+import ImagesExample from './image_example.js'
 
 const App = () => {
   return (
-    <Inputs />
+    <ImagesExample />
   )
 }
 export default App
