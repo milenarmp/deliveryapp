@@ -1,18 +1,9 @@
 import React from 'react'
-import { Text, View } from 'react-native'
-import App2 from './'
+import Inputs from './PresentationalComponent/inputs.js'
 
-export default class App extends React.Component {
-  state = {
-    meuState: 'Lore '
-  };
-
-  render(){
-    return (
-      <View>
-        <Text>{this.state.meuState}</Text>
-        App2.
-      </View>
-    );
-  }
+const App = () => {
+  return (
+    <Inputs />
+  )
 }
+export default App
